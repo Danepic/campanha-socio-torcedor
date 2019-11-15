@@ -1,7 +1,7 @@
 ##Projeto de Microsserviços(Campanha API e Socio Torcedor API)
 
 ###Configuração
-Para configurar, clone os repositórios na sua máquina e siga os passos a seguir.
+Para configurar, clone esse repositório para usar o .yml do Docker-Compose e clone os repositórios das aplicações. Clonados na sua máquina, siga os passos a seguir.
 
 ###Repositórios
 Sócio Torcedor API: https://github.com/Danepic/socio-torcedor
