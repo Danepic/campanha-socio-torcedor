@@ -1,0 +1,6 @@
+[submodule "campanha-api"]
+	url = https://github.com/Danepic/campanha-api.git
+[submodule "registry"]
+	url = https://github.com/Danepic/registry.git
+[submodule "socio-torcedor-api"]
+	url = https://github.com/Danepic/socio-torcedor.git
