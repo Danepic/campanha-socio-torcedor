@@ -1,0 +1,24 @@
+version: '3.4'
+services:
+ docker-campanha:
+    image: danepic/campanha-api-app
+    ports:
+      - "8082:8082"
+    links:
+      - docker-registry
+    depends_on:
+      - docker-registry
+ docker-socio-torcedor:
+    image: danepic/socio-torcedor-api-app
+    ports:
+      - "8084:8084"
+    links:
+      - docker-registry
+      - docker-campanha
+    depends_on:
+      - docker-registry
+      - docker-campanha
+ docker-registry:
+    image: danepic/registry-app
+    ports:
+      - "8086:8086"
